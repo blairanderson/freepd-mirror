@@ -22,16 +22,9 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <hr />
           <a href="/index.json" target="_blank"
             >JSON format {{ site.data['git-hash']}}</a
           >
-          <ul>
-            {% for file in site.static_files %} {% if file.path contains 'src'
-            %}
-            <li><a href="{{file.path}}">{{file.path}}</a></li>
-            {% endif %} {% endfor %}
-          </ul>
         </div>
       </div>
     </div>

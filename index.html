@@ -19,6 +19,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <a href="/index.json">JSON format</a>
     <ul>
       {% for file in site.static_files %} {% if file.path contains 'src' %}
       <li><a href="{{file.path}}">{{file.path}}</a></li>

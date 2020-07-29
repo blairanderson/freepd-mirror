@@ -17,6 +17,7 @@ site_name: FREEPD-MIRROR
 title: FREEPD-MIRROR
 email: blair81@gmail.com
 url: "https://freepd-mirror.netlify.app"
+mirror: "https://rawcdn.githack.com/blairanderson/freepd-mirror/"
 
 # Exclude from processing.
 # The following items will not be processed.

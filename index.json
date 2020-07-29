@@ -3,6 +3,6 @@
 
 [
    {% for file in site.static_files %}
-    {% if file.path contains 'src' %}{"url": "{{site.url}}{{ file.path }}"}{% unless forloop.last %},{% endunless %}{% endif %}
+    {% if file.path contains 'src' %}{"url": "{{site.mirror}}{{site.data['git-hash']}}{{ file.path }}"}{% unless forloop.last %},{% endunless %}{% endif %}
    {% endfor %}
 ]
